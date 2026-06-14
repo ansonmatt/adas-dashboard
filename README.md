@@ -40,7 +40,7 @@ Driver Assistance System) would see and decide, frame by frame:
 ## Demo
 
 >
-> ![dashboard preview](image-1.png)
+> ![dashboard preview](image.png)
 
 ---
 
