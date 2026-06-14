@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.Python
+*.egg-info/
+ 
+# Streamlit
+.streamlit/
+ 
+# Model weights (large binaries — fetch separately or use Git LFS)
+*.pt
+*.onnx
+*.engine
+ 
+# Fonts (large binaries — see README for download instructions)
+*.ttf
+*.otf
+*.woff
+*.woff2
+ 
+# Video assets
+videos/*.mp4
+videos/*.avi
+videos/*.mov
+videos/*.mkv
+!videos/.gitkeep
+ 
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
