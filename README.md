@@ -37,9 +37,19 @@ Driver Assistance System) would see and decide, frame by frame:
 
 ---
 
+## Key technical highlights:
+
+- **Dynamic Lane Tracking:** Custom Region of Interest (ROI) and temporal smoothing.
+- **Persistent Object Tracking:** Using ByteTrack to assign unique vehicle IDs.
+- **Monocular Depth Estimation:** Utilizing pinhole camera math to calculate physical distance in meters without stereo-vision.
+- **Context-Aware FCW:** Triggers Forward Collision Warnings only when a tracked vehicle in the "Ego-Lane" breaches a 15m safety threshold.
+- **True Metric BEV:** Translates camera pixels into a top-down, real-world metric grid.
+- **State-Managed UI:** Built entirely in Streamlit for seamless playback and scrubbing.
+
+---
+
 ## Demo
 
->
 > ![dashboard preview](image.png)
 
 ---
